@@ -3,7 +3,7 @@ name: Auto Commit
 on:
   schedule:
     # Bekerja setiap hari jam 00:00 UTC+7 (bisa disesuaikan)
-    - cron: '0 0 * * *'
+    - cron: '0 17 * * *'
   workflow_dispatch:
 
 jobs:
